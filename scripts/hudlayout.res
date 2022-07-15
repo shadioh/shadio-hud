@@ -5,7 +5,7 @@
 		"fieldName" "HudPlayerStatus"
 		"visible" "1"
 		"enabled" "1"
-		"xpos"	"0"
+		"xpos"	"c-275"
 		"ypos"	"0"
 		"wide"	"f0"
 		"tall"	"480"
@@ -16,12 +16,12 @@
 		"fieldName" "HudWeaponAmmo"
 		"visible" "1"
 		"enabled" "1"
-		"xpos"	"r95"	[$WIN32]
+		"xpos"	"c135"					[$WIN32]
 		"xpos_minmode"	"r85"	[$WIN32]
-		"ypos"	"r55"	[$WIN32]
+		"ypos"	"r55"			[$WIN32]
 		"ypos_minmode"	"r36"	[$WIN32]
-		"xpos"	"r131"	[$X360]
-		"ypos"	"r77"	[$X360]
+		"xpos"	"r131"			[$X360]
+		"ypos"	"r77"			[$X360]
 		"wide"	"94"
 		"tall"	"45"
 	}

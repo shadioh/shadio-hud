@@ -3041,6 +3041,16 @@ Scheme
 			}
 		}
 		
+		CurseCasual-20
+		{
+			"1"
+			{
+				"name"		"Curse Casual Regular"
+				"tall"		"20"
+				"antialias"	"1"
+			}
+		}
+		
 		Terminus
 		{
 			"1"
