@@ -3066,7 +3066,7 @@ Scheme
 			"1"
 			{
 				"name"		"Terminus (TTF) Bold"
-				"tall"		"20"
+				"tall"		"40"
 				"antialias"	"1"
 			}
 		}
