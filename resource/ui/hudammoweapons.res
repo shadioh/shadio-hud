@@ -21,10 +21,11 @@
 		"teambg_3_lodef"	"../hud/ammo_blue_bg_lodef"		
 	}
 	"HudWeaponLowAmmoImage"
+	//removed
 	{
 		"ControlName"	"ImagePanel"
 		"fieldName"		"HudWeaponLowAmmoImage"
-		"xpos"			"4"
+		"xpos"			"100000"
 		"xpos_minmode"	"28"
 		"ypos"			"0"
 		"ypos_minmode"	"7"
@@ -32,7 +33,7 @@
 		"wide"			"90"
 		"tall"			"45"
 		"visible"		"0"
-		"enabled"		"1"
+		"enabled"		"0"
 		"image"			"../hud/ammo_red_bg"
 		"scaleImage"	"1"	
 		"teambg_2"		"../hud/ammo_red_bg"
@@ -169,6 +170,20 @@
 		"enabled"		"1"
 		"textAlignment"	"south-east"		
 		"labelText"		"%Ammo%"
-		
-	}									
+	}							
+	"ammobox"
+	{
+		"ControlName"		"ImagePanel"
+		"fieldName"			"ammobox"
+		"xpos"				"70"
+		"xpos_lodef"		"0"
+		"ypos"				"0"
+		"zpos"				"2"
+		"wide"				"30"
+		"tall"				"30"
+		"visible"			"1"
+		"enabled"			"1"
+		"image"				"replay/thumbnails/hud/ammobox"
+		"scaleImage"		"1"
+	}
 }

@@ -52,19 +52,20 @@
 		"scaleImage"	"1"	
 	}	
 	"PlayerStatusHealthBonusImage"
+	//removed
 	{
 		"ControlName"	"ImagePanel"
 		"fieldName"		"PlayerStatusHealthBonusImage"
-		"xpos"			"73"	
+		"xpos"			"100000"	
 		"xpos_minmode"	"65"	
-		"ypos"			"33"	
+		"ypos"			"80"	
 		"ypos_minmode"	"40"	
 		"zpos"			"2"
 		"wide"			"0"	
 		"wide_minmode"	"40"	
 		"tall"			"0"	
 		"tall_minmode"	"40"	
-		"visible"		"0"
+		"visible"		"1"
 		"enabled"		"1"
 		"image"			"../hud/health_over_bg"
 		"scaleImage"	"1"	
@@ -93,8 +94,7 @@
 		"fieldName"		"PlayerStatusHealthValueShadow"
 		"xpos"			"30"
 		"xpos_minmode"	"61"
-		"ypos"			"62"	[$WIN32]
-		"ypos"			"55"	[$X360]
+		"ypos"			"62"	
 		"zpos"			"5"
 		"wide"			"100"
 		"tall"			"50"
@@ -641,5 +641,20 @@
 		"scaleImage"	"1"	
 		"image"			"../vgui/slowed"
 		"fgcolor"		"TanDark"
+	}
+	"healthkit"
+	{
+		"ControlName"		"ImagePanel"
+		"fieldName"			"healthkit"
+		"xpos"				"3"
+		"xpos_lodef"		"0"
+		"ypos"				"65"
+		"zpos"				"3"
+		"wide"				"32"
+		"tall"				"32"
+		"visible"			"1"
+		"enabled"			"1"
+		"image"				"replay/thumbnails/hud/healthkit"
+		"scaleImage"		"1"
 	}
 }

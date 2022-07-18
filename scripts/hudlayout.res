@@ -5,9 +5,9 @@
 		"fieldName" "HudPlayerStatus"
 		"visible" "1"
 		"enabled" "1"
-		"xpos"	"c-275"
+		"xpos"	"c-250"
 		"ypos"	"0"
-		"wide"	"f0"
+		"wide"	"150"
 		"tall"	"480"
 	}
 
@@ -22,7 +22,7 @@
 		"ypos_minmode"	"r36"	[$WIN32]
 		"xpos"	"r131"			[$X360]
 		"ypos"	"r77"			[$X360]
-		"wide"	"94"
+		"wide"	"110"
 		"tall"	"45"
 	}
 	
