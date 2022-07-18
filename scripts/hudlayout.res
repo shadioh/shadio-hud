@@ -16,12 +16,10 @@
 		"fieldName" "HudWeaponAmmo"
 		"visible" "1"
 		"enabled" "1"
-		"xpos"	"c135"					[$WIN32]
-		"xpos_minmode"	"r85"	[$WIN32]
-		"ypos"	"r55"			[$WIN32]
-		"ypos_minmode"	"r36"	[$WIN32]
-		"xpos"	"r131"			[$X360]
-		"ypos"	"r77"			[$X360]
+		"xpos"	"c135"					
+		"xpos_minmode"	"r85"	
+		"ypos"	"r55"			
+		"ypos_minmode"	"r36"	
 		"wide"	"110"
 		"tall"	"45"
 	}
@@ -76,12 +74,10 @@
 		"fieldName"		"HudMedicCharge"
 		"visible"		"1"
 		"enabled"		"1"
-		"xpos"			"r138"	[$WIN32]
-		"xpos_minmode"	"r100"	[$WIN32]
-		"ypos"			"r69"	[$WIN32]
-		"ypos_minmode"	"r34"	[$WIN32]
-		"xpos"			"r174"	[$X360]
-		"ypos"			"r90"	[$X360]
+		"xpos"			"c135"	
+		"xpos_minmode"	"r100"	
+		"ypos"			"r55"	
+		"ypos_minmode"	"r34"	
 		"wide"			"200"
 		"tall"			"100"
 	}
