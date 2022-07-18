@@ -1500,5 +1500,22 @@
 		"mouseinputenabled"		"0"
 		"alpha"					"100"
 	}
+	"Hitmarker"
+	{
+		"ControlName"	"CTFImagePanel"
+		"fieldName"		"Hitmarker"
+		"xpos"			"c-14"
+		"ypos"			"c-14"
+		"zpos"			"20"
+		"wide"			"28"
+		"tall"			"28"
+		"enabled"		"1"
+		"visible"		"1"
+		"image"			"replay/thumbnails/hud/hitmarker_red"
+		"scaleImage"	"1"	
+		"Alpha"			"0"
+		"teambg_2"		"replay/thumbnails/hud/hitmarker_red"
+		"teambg_3"		"replay/thumbnails/hud/hitmarker_blue"
+	}
 }
 
