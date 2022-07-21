@@ -31,8 +31,8 @@
 		"zpos"			"4"
 		"wide"			"0"
 		"tall"			"0"
-		"visible"		"1"
-		"enabled"		"1"
+		"visible"		"0"
+		"enabled"		"0"
 		"scaleImage"	"1"	
 	}		
 	"PlayerStatusHealthImageBG"
@@ -52,29 +52,28 @@
 		"scaleImage"	"1"	
 	}	
 	"PlayerStatusHealthBonusImage"
-	//removed
 	{
 		"ControlName"	"ImagePanel"
 		"fieldName"		"PlayerStatusHealthBonusImage"
-		"xpos"			"100000"	
+		"xpos"			"32"	
 		"xpos_minmode"	"65"	
-		"ypos"			"80"	
+		"ypos"			"55"
 		"ypos_minmode"	"40"	
 		"zpos"			"2"
-		"wide"			"0"	
+		"wide"			"60"
 		"wide_minmode"	"40"	
-		"tall"			"0"	
+		"tall"			"60"
 		"tall_minmode"	"40"	
 		"visible"		"1"
 		"enabled"		"1"
-		"image"			"../hud/health_over_bg"
+		"image"			"replay/thumbnails/hud/overheal"
 		"scaleImage"	"1"	
 	}
 	"PlayerStatusHealthValue"
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"PlayerStatusHealthValue"
-		"xpos"			"28"
+		"xpos"			"12"
 		"xpos_minmode"	"61"
 		"ypos"			"60"	[$WIN32]
 		"ypos"			"55"	[$X360]
@@ -84,7 +83,7 @@
 		"visible"		"1"
 		"enabled"		"1"
 		"labelText"		"%Health%"
-		"textAlignment"	"west"	
+		"textAlignment"	"center"	
 		"font"			"HudFontGiantBold"
 		"fgcolor"		"TanLight"
 	}
@@ -92,7 +91,7 @@
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"PlayerStatusHealthValueShadow"
-		"xpos"			"30"
+		"xpos"			"14"
 		"xpos_minmode"	"61"
 		"ypos"			"62"	
 		"zpos"			"5"
@@ -101,7 +100,7 @@
 		"visible"		"1"
 		"enabled"		"1"
 		"labelText"		"%Health%"
-		"textAlignment"	"leftside"	
+		"textAlignment"	"center"	
 		"font"			"HudFontGiantBold"
 		"fgcolor"		"Black"
 	}
@@ -109,7 +108,7 @@
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"PlayerStatusMaxHealthValue"
-		"xpos"			"30"
+		"xpos"			"-10"
 		"xpos_minmode"	"61"
 		"ypos"			"53"	
 		"zpos"			"6"
@@ -126,7 +125,7 @@
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"PlayerStatusMaxHealthValueShadow"
-		"xpos"			"31"
+		"xpos"			"-8"
 		"xpos_minmode"	"61"
 		"ypos"			"54"	
 		"zpos"			"6"

@@ -134,7 +134,7 @@
 		"fieldName"		"AmmoNoClip"
 		"font"			"HudFontGiantBold"
 		"fgcolor"		"TanLight"
-		"xpos"			"0"
+		"xpos"			"5"
 		"ypos"			"2"
 		"zpos"			"5"
 		"wide"			"84"
@@ -144,7 +144,7 @@
 		"tall_lodef"	"45"
 		"visible"		"0"
 		"enabled"		"1"
-		"textAlignment"	"south-east"		
+		"textAlignment"	"center"		
 		"labelText"		"%Ammo%"
 		
 	}	
@@ -154,7 +154,7 @@
 		"fieldName"		"AmmoNoClipShadow"
 		"font"			"HudFontGiantBold"
 		"fgcolor"		"Black"
-		"xpos"			"2"
+		"xpos"			"7"
 		"xpos_hidef"	"2"
 		"xpos_lodef"	"2"
 		"ypos"			"4"
@@ -168,7 +168,7 @@
 		"tall_lodef"	"45"
 		"visible"		"0"
 		"enabled"		"1"
-		"textAlignment"	"south-east"		
+		"textAlignment"	"center"		
 		"labelText"		"%Ammo%"
 	}							
 	"ammobox"
