@@ -1,16 +1,17 @@
-"Resource/UI/HudItemEffectMeter_Demoman.res"
+"Resource/UI/HudItemEffectMeter_Sniper.res"
 {
 	HudItemEffectMeter
 	{
 		"fieldName"		"HudItemEffectMeter"
 		"visible"		"1"
 		"enabled"		"1"
-		"xpos"			"r210"	[$WIN32]
-		"ypos"			"r82"	[$WIN32]
-		"xpos_minmode"	"r70"	[$WIN32]
-		"ypos_minmode"	"r74"	[$WIN32]
+		"x_offset"		"40"
+		"xpos"			"r180"	[$WIN32]
+		"ypos"			"r51"	[$WIN32]
+		"xpos_minmode"	"r30"	[$WIN32]
+		"ypos_minmode"	"r94"	[$WIN32]
 		"xpos"			"r194"	[$X360]
-		"ypos"			"r74"	[$X360]
+		"ypos"			"r124"	[$X360]
 		"wide"			"100"
 		"tall"			"50"
 		"MeterFG"		"White"
@@ -24,13 +25,13 @@
 		"xpos"			"12"
 		"ypos"			"0"
 		"zpos"			"0"
-		"wide"			"76"
-		"tall"			"44"
-		"visible"		"0"
+		"wide"			"0"
+		"tall"			"0"
+		"visible"		"1"
 		"visible_minmode"	"0"
 		"enabled"		"0"
 		"image"			"../hud/misc_ammo_area_blue"
-		"scaleImage"	"1"	
+		"scaleImage"	"0"	
 		"teambg_2"		"../hud/misc_ammo_area_red"
 		"teambg_2_lodef"	"../hud/misc_ammo_area_red_lodef"
 		"teambg_3"		"../hud/misc_ammo_area_blue"
@@ -42,7 +43,7 @@
 		"ControlName"			"CExLabel"
 		"fieldName"				"ItemEffectMeterLabel"
 		"xpos"					"25"
-		"ypos"					"22"
+		"ypos"					"27"
 		"zpos"					"2"
 		"wide"					"41"
 		"tall"					"15"
@@ -85,7 +86,7 @@
 		"ControlName"			"CExLabel"
 		"fieldName"				"ItemEffectMeterCount"
 		"xpos"					"25"
-		"ypos"					"5"
+		"ypos"					"10"
 		"zpos"					"2"
 		"wide"					"40"
 		"tall"					"20"	
@@ -105,7 +106,7 @@
 		"fieldName"			"head"
 		"xpos"				"15"
 		"xpos_lodef"		"0"
-		"ypos"				"-10"
+		"ypos"				"-5"
 		"zpos"				"2"
 		"wide"				"60"
 		"tall"				"60"

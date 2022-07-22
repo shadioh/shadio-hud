@@ -47,6 +47,21 @@ event LevelInit
 {
 }
 
+event HitMarker
+{
+
+	Animate	Hitmarker	Alpha	"255"	Linear 0.0 0.0		// tcHitmarker start
+	Animate	Hitmarker	Alpha	"0"		Linear 0.0 0.50 	// tcHitmarker end
+
+}
+event DamagedPlayer
+{
+	StopEvent 	HitMarker 	0.0
+	RunEvent 	HitMarker	0.01
+	Animate		HitIcon						Alpha	"255"	Linear 0.0 0.1
+	Animate		HitIcon						Alpha	"0"		Linear 1.5 0.4
+}
+
 event OpenWeaponSelectionMenu
 {
 	StopEvent CloseWeaponSelectionMenu	0.0

@@ -18,10 +18,10 @@
 		"enabled" "1"
 		"xpos"	"c135"					
 		"xpos_minmode"	"r85"	
-		"ypos"	"r55"			
-		"ypos_minmode"	"r36"	
+		"ypos"	"r56"			
+		"ypos_minmode"	"r36"
 		"wide"	"110"
-		"tall"	"45"
+		"tall"	"300"
 	}
 	
 	HudObjectiveStatus
@@ -87,9 +87,9 @@
 		"fieldName"		"HudDemomanCharge"
 		"visible"		"1"
 		"enabled"		"1"
-		"xpos"			"r80"	[$WIN32]
+		"xpos"			"c-35"	[$WIN32]
 		"xpos_minmode"	"r52"	[$WIN32]
-		"ypos"			"r21"	[$WIN32]
+		"ypos"			"c30"	[$WIN32]
 		"ypos_minmode"	"r40"	[$WIN32]
 		"xpos"			"r112"	[$X360]
 		"ypos"			"r45"	[$X360]
@@ -106,9 +106,9 @@
 		"fieldName"		"HudBowCharge"
 		"visible"		"1"
 		"enabled"		"1"
-		"xpos"			"r80"	[$WIN32]
+		"xpos"			"c-35"	[$WIN32]
 		"xpos_minmode"	"r52"	[$WIN32]
-		"ypos"			"r21"	[$WIN32]
+		"ypos"			"c30"
 		"ypos_minmode"	"r40"	[$WIN32]
 		"xpos"			"r112"	[$X360]
 		"ypos"			"r45"	[$X360]
@@ -1032,7 +1032,7 @@
 		"fieldName"		"HudDemomanPipes"
 		"visible"		"1"
 		"enabled"		"1"
-		"xpos"			"r162"	[$WIN32]
+		"xpos"			"r210"	[$WIN32]
 		"xpos_minmode"	"r110"	[$WIN32]
 		"ypos"			"r52"	[$WIN32]
 		"ypos_minmode"	"r30"	[$WIN32]
@@ -1499,6 +1499,23 @@
 		"keyboardinputenabled"	"1"
 		"mouseinputenabled"		"0"
 		"alpha"					"100"
+	}
+	"Hitmarker"
+	{
+		"ControlName"	"CTFImagePanel"
+		"fieldName"		"Hitmarker"
+		"xpos"			"c-14"
+		"ypos"			"c-14"
+		"zpos"			"20"
+		"wide"			"28"
+		"tall"			"28"
+		"enabled"		"1"
+		"visible"		"1"
+		"image"			"replay/thumbnails/hud/hitmarker_red"
+		"scaleImage"	"1"	
+		"Alpha"			"0"
+		"teambg_2"		"replay/thumbnails/hud/hitmarker_red"
+		"teambg_3"		"replay/thumbnails/hud/hitmarker_blue"
 	}
 }
 
