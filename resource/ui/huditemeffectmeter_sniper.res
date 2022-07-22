@@ -6,8 +6,8 @@
 		"visible"		"1"
 		"enabled"		"1"
 		"x_offset"		"40"
-		"xpos"			"r180"	[$WIN32]
-		"ypos"			"r51"	[$WIN32]
+		"xpos"			"r170"	[$WIN32]
+		"ypos"			"r56"	[$WIN32]
 		"xpos_minmode"	"r30"	[$WIN32]
 		"ypos_minmode"	"r94"	[$WIN32]
 		"xpos"			"r194"	[$X360]
