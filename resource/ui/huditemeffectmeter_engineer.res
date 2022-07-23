@@ -7,7 +7,7 @@
 		"enabled"		"1"
 		"xpos"			"r200"	
 		"ypos"			"r90"	
-		"xpos_minmode"	"r320"	
+		"xpos_minmode"	"r252"	
 		"ypos_minmode"	"r175"		
 		"wide"			"100"
 		"tall"			"50"

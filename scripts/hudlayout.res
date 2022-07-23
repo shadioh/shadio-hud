@@ -196,7 +196,7 @@
 		"xpos"					"r196"	
 		"ypos"					"r152"	
 		"xpos_minmode"			"r248"
-		"ypos_minmode"			"r240"	
+		"ypos_minmode"			"r240"	 
 		"wide"					"116"
 		"tall"  				"180"
 		"visible" 				"1"
