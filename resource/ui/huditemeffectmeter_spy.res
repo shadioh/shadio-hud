@@ -1,14 +1,16 @@
-"Resource/UI/HudItemEffectMeter_Demoman.res"
+"Resource/UI/HudItemEffectMeter_Spy.res"
 {
 	HudItemEffectMeter
 	{
 		"fieldName"		"HudItemEffectMeter"
 		"visible"		"1"
 		"enabled"		"1"
-		"xpos"			"r210"	
-		"ypos"			"r82"	
-		"xpos_minmode"	"r220"	
-		"ypos_minmode"	"r135"	
+		"xpos"			"r162"	[$WIN32]
+		"ypos"			"r92"	[$WIN32]
+		"xpos_minmode"	"r70"	[$WIN32]
+		"ypos_minmode"	"r74"	[$WIN32]
+		"xpos"			"r194"	[$X360]
+		"ypos"			"r74"	[$X360]
 		"wide"			"100"
 		"tall"			"50"
 		"MeterFG"		"White"
@@ -24,9 +26,9 @@
 		"zpos"			"0"
 		"wide"			"76"
 		"tall"			"44"
-		"visible"		"0"
+		"visible"		"1"
 		"visible_minmode"	"0"
-		"enabled"		"0"
+		"enabled"		"1"
 		"image"			"../hud/misc_ammo_area_blue"
 		"scaleImage"	"1"	
 		"teambg_2"		"../hud/misc_ammo_area_red"
@@ -40,7 +42,7 @@
 		"ControlName"			"CExLabel"
 		"fieldName"				"ItemEffectMeterLabel"
 		"xpos"					"25"
-		"ypos"					"22"
+		"ypos"					"27"
 		"zpos"					"2"
 		"wide"					"41"
 		"tall"					"15"
@@ -83,9 +85,9 @@
 		"ControlName"			"CExLabel"
 		"fieldName"				"ItemEffectMeterCount"
 		"xpos"					"25"
-		"ypos"					"5"
+		"ypos"					"10"
 		"zpos"					"2"
-		"wide"					"40"
+		"wide"					"44"
 		"tall"					"20"	
 		"pinCorner"				"2"
 		"visible"				"1"
@@ -95,20 +97,6 @@
 		"textAlignment"			"north"
 		"dulltext"				"0"
 		"brighttext"			"0"
-		"font"					"HudFontMediumBold"
-	}
-	"head"
-	{
-		"ControlName"		"ImagePanel"
-		"fieldName"			"head"
-		"xpos"				"15"
-		"ypos"				"-10"
-		"zpos"				"2"
-		"wide"				"60"
-		"tall"				"60"
-		"visible"			"1"
-		"enabled"			"1"
-		"image"				"replay/thumbnails/hud/head"
-		"scaleImage"		"1"
+		"font"					"HudFontMediumSmall"
 	}
 }
