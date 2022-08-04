@@ -212,7 +212,7 @@
 		"ypos"					"r152"
 		"ypos_minmode"			"r152"
 		"wide"					"400"
-		"tall"  				"450"
+		"tall"  				"500"
 		"visible" 				"1"
 		"enabled" 				"1"
 		"PaintBackgroundType"	"2"
